@@ -18,5 +18,12 @@ question = "Which month's number of days do you want to know?"
 answer = int(input(question + " "))
 if answer in table:
     print(f"Month {answer} has {table[answer]} days.")
+    if answer == 2:
+        answer2 = int(input("What year? "))
+        if (answer2 % 4 == 0 and answer2 % 100 != 0) or (answer2 % 400 == 0):
+            print(f"In {answer2}, February has 29 days.")
+        else:
+            print(f"In {answer2}, February has 28 days.")
+
 else:
     print("Invalid month number!")
