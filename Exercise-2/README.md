@@ -8,4 +8,4 @@ This exercise required creating two integer variables, calculating their sum, an
 - Prints the value 18 to the console
 
 ## Files
-- simple_sums.py – final solution
+- Exercise 02.py – final solution
