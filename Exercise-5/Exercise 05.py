@@ -1,5 +1,5 @@
-# Exercise 5: Days of the Month (Basic Requirements)
-# This program tells the user how many days are in a specific month.
+# Exercise 5: Days of the Month (Advanced Requirements)
+# This program accounts for leap years when February is selected.
 
 table = {
     1: 31, 2: 28, 3: 31, 4: 30,
@@ -12,5 +12,13 @@ answer = int(input(question + " "))
 
 if answer in table:
     print(f"Month {answer} has {table[answer]} days.")
+
+    if answer == 2:
+        year = int(input("What year? "))
+        if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+            print(f"In {year}, February has 29 days.")
+        else:
+            print(f"In {year}, February has 28 days.")
+
 else:
     print("Invalid month number!")
