@@ -11,4 +11,4 @@ This exercise determines whether a user-entered number is even or odd.
 4. Result is printed from `main()`
 
 ## Files
-- is_it_even.py – final solution
+- Exercise 10.py – final solution
