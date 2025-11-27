@@ -13,6 +13,5 @@ This exercise required creating a program that stores and prints personal detail
 - Test what happens if a non-numeric age is entered.
 - Consider how Python treats spaces and data types.
 
-## Files
-- biography.py – basic version
-- biography_advanced.py – advanced version
+## File
+- Exercise 03.py – basic + advanced version
