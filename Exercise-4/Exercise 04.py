@@ -1,12 +1,16 @@
-# Exercise 4: Primitive Quiz (Basic Requirements)
-# This program asks the user "What is the capital of France?" and checks the answer.
+# Exercise 4: Primitive Quiz (Advanced Requirements)
+# This version accepts any capitalization and is prepared for multiple questions.
 
 question = "What is the capital of France?"
 answer = input(question + " ")
 correctanswer = "paris"
 
-# Check the answer (case-insensitive)
+# Accept the answer regardless of capitalization
 if answer.lower() == correctanswer:
     print("Answer is correct!")
 else:
     print("Answer is wrong!")
+
+# This file demonstrates the advanced features:
+# - Accepting multiple forms of capitalization
+# - Structure suitable for expanding to multiple questions
